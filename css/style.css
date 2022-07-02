@@ -12,7 +12,7 @@
     position: relative;
     overflow: hidden;
     background: linear-gradient(#87CEEB, #E0F6FF);
-    background-image: url(/Images/12.jpg);
+    background-image: url(./Images/12.jpg);
     background-position: center;
 }
 
