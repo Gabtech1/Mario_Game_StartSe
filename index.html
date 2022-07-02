@@ -10,11 +10,23 @@
 </head>
 
 <body>
+    <div class="container">
     <div class="game">
         <img src="./Images/clouds-gamer.png" class="cloud-game" />
+        <img src="./Images/nave.png" class="nave-game" />
         <img src="./Images/super-mario.gif" class="super-mario" />
         <img src="./Images/pipe-game.png" class="pipe-game" />
+
+        <div class="score">
+           <h2>Pontos:<span style="font-size: 25pt" id="count">0</span></h2>
+        </div>
+        
+            <img src="./images/over.png" class="hidden" class="over">
+            <button id="button" class="hidden" class="over">Restart</button>
+
+        </div>
     </div>
+</div>
 
     <!-- Sons do jogo !-->
     <audio src="./audio/Tema Mario.mp3" preload="auto" id="musica"></audio>

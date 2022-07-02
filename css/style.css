@@ -1,18 +1,27 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    max-width: 1150px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .game {
     width: 100%;
     height: 100vh;
-    border-bottom: 100px solid rgb(24,174,24);
+    border-bottom: 100px solid rgb(24, 174, 24);
     margin: 0 auto;
     position: relative;
     overflow: hidden;
     background: linear-gradient(#87CEEB, #E0F6FF);
-    background-image: url(./Images/12.jpg);
+    background-image: url(/Images/fundo.jpg);
     background-position: center;
 }
 
@@ -20,11 +29,11 @@
     position: absolute;
     bottom: 0;
     width: 80px;
-    animation: pipe-animation 2.5s infinite linear;
+    animation: pipe-animation 2s infinite linear;
 }
 
-.super-mario{
-    width:150px;
+.super-mario {
+    width: 150px;
     position: absolute;
     bottom: 0;
 }
@@ -33,51 +42,76 @@
     animation: mario-animation 500ms ease-out;
 }
 
-.cloud-game{
+.cloud-game {
     position: absolute;
     width: 550px;
     animation: clouds-animation 20s infinite linear;
+}
+
+.nave-game {
+    position: absolute;
+    width: 85px;
+    margin-top: 250px;
+    animation: nave-animation 25s infinite linear;
 }
 
 @keyframes pipe-animation {
     from {
         right: -80px;
     }
-    to{
+
+    to {
         right: 100%;
     }
 }
 
 @keyframes clouds-animation {
-    from{
+    from {
         right: -550px;
     }
-    to{
-        right:  100%;
+
+    to {
+        right: 100%;
     }
 }
 
-@keyframes mario-animation{
+@keyframes nave-animation {
+    from {
+        right: -600px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes mario-animation {
     0% {
-        bottom:0;
+        bottom: 0;
     }
+
     40% {
-        bottom: 180px;
+        bottom: 250px;
     }
+
     50% {
+        bottom: 200px;
+    }
+
+    60% {
         bottom: 180px;
     }
-    60%{
+
+    70% {
         bottom: 180px;
     }
-    70%{
-        bottom: 180px;
-    }
-    100%{
+
+    100% {
         bottom: 0%
     }
 
 }
+
 /*
 #inicio {
 	width:350px;
@@ -89,4 +123,98 @@
 	text-align:center;
 	padding:65px;
     border-radius: 50px;
+}
+
+.logo{
+    margin-top: 25vh;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo-mario {
+    width: 50%;
+    min-width: 300px;
+}
+
+.logo-mario img{
+    width: 100%;
+}
+
+.play-buttom{
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: #00ffff;
+    box-shadow: 5px 5px black;
+}
+
+.play-buttom a{
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 10px;  
+}
+
+.play-buttom h3{
+    margin: 0;
+}
+
+.play-buttom:hover{
+    transform: translate(10px, 10px);
+    box-shadow: none;
 }*/
+
+
+
+#button {
+    position: absolute;
+    font-size: 1.5rem;
+    width: 100px;
+    height: 40px;
+    top: 240px;
+    left: 46%;
+    background-color: #FD0002;
+    color: #FFF;
+    border: #FFF 3px solid;
+    box-shadow: 3px 3px rgba(63, 168, 249, 0.7);
+    border-radius: 10px;
+}
+
+.score {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 25px;
+    text-align: start;
+    color: rgb(234, 246, 247);
+    background-color: rgb(57, 180, 82);
+    border-radius: 10px;
+    border: 1.5px solid white;
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.hidden {
+    display: none;
+}
+
+.over {
+    position: absolute;
+    width: 400px;
+    top: 130px;
+    left: 35%;
+}
+
+
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
