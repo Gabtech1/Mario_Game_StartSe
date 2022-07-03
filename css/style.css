@@ -167,13 +167,13 @@
     .cloud-game {
         position: absolute;
         width: 150px;
-        animation: clouds-animation 20s infinite linear;
+        animation: clouds-animation 15s infinite linear;
     }
     
     .nave-game {
         position: absolute;
         width: 45px;
         margin-top: 60px;
-        animation: nave-animation 25s infinite linear;
+        animation: nave-animation 10s infinite linear;
     }
 }
