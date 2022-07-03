@@ -162,3 +162,14 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 480px) {
+    .cloud-game {  
+        width: 200px;
+    }
+    
+    .nave-game {
+        width: 55px;
+        margin-top: 120px;
+    }
+}
