@@ -21,7 +21,7 @@
     position: relative;
     overflow: hidden;
     background: linear-gradient(#87CEEB, #E0F6FF);
-    background-image: url(/Images/fundo.jpg);
+    background-image: url(../Images/fundo.jpg);
     background-position: center;
 }
 
@@ -111,62 +111,6 @@
     }
 
 }
-
-/*
-#inicio {
-	width:350px;
-	height:200px;
-	background-color: #11d3a2;
- 	margin-left:auto;
-        margin-right:auto;
- 	margin-top:20%;
-	text-align:center;
-	padding:65px;
-    border-radius: 50px;
-}
-
-.logo{
-    margin-top: 25vh;
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.logo-mario {
-    width: 50%;
-    min-width: 300px;
-}
-
-.logo-mario img{
-    width: 100%;
-}
-
-.play-buttom{
-    width: 200px;
-    text-align: center;
-    border-radius: 20px;
-    border: 2px solid white;
-    background-color: #00ffff;
-    box-shadow: 5px 5px black;
-}
-
-.play-buttom a{
-    display: inline-block;
-    width: 100%;
-    text-transform: uppercase;
-    padding: 10px;  
-}
-
-.play-buttom h3{
-    margin: 0;
-}
-
-.play-buttom:hover{
-    transform: translate(10px, 10px);
-    box-shadow: none;
-}*/
 
 
 
