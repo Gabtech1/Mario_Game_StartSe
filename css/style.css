@@ -163,7 +163,7 @@
     justify-content: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     .cloud-game {
         position: absolute;
         width: 250px;
