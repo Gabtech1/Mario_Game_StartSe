@@ -163,13 +163,17 @@
     justify-content: center;
 }
 
-@media (max-width: 480px) {
-    .cloud-game {  
-        width: 200px;
+@media (max-width: 700px) {
+    .cloud-game {
+        position: absolute;
+        width: 250px;
+        animation: clouds-animation 20s infinite linear;
     }
     
     .nave-game {
+        position: absolute;
         width: 55px;
         margin-top: 120px;
+        animation: nave-animation 25s infinite linear;
     }
 }
