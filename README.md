@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Mario game.
 
-- [Jogue agora o projeto finalizado, online](gabtech1.github.io/Mario_Game_StartSe/)
+- [Jogue agora o projeto finalizado, online](https://gabtech1.github.io/Mario_Game_StartSe/)
 
 
 
@@ -43,4 +43,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Obrigado por visitar e divirta-se 😉:wave:
+Obrigado por visitar e divirta-se 😉
